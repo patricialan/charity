@@ -4,7 +4,7 @@ Neural networks and deep learning models were created to predict which charities
 
 Steps taken to try to increase model performance included data preprocessing: discarding non-feature variables (i.e. columns), and binning low-frequency categorical variables. Attempts to optimize the model itself included increasing the number of neurons per layer, increasing the number of hidden layers, changing the activation functions of the layers, and increasing the epoch number. 
 
-Generally, the dataset seemed to produce higher accuracy with use of "sigmoid" activation function. Also, using deep learning models didn't significantly increase accuracy (highest accuracy of 73% was achieved) beyond neural network models. This suggests that the dataset is more amenable to less complex modelling. Thus, I would trial logistic regression models like Easy Ensemble AdaBoost, Random Forest, or Support Vector Machine (SVM). Random Forest would also rank feature importances, which would help further optimize the model. 
+Generally, the dataset seemed to produce higher accuracy with use of "sigmoid" activation function. Also, using deep learning models didn't increase accuracy (highest accuracy of 73% was achieved) beyond neural network models. This suggests that the dataset is more amenable to less complex modelling. Thus, I would trial logistic regression models like Easy Ensemble AdaBoost, Random Forest, or Support Vector Machine (SVM). Random Forest would also rank feature importances, which would help further optimize the model. 
 
 ## Resources
 ### Data
